@@ -3,7 +3,7 @@ package com.amulya.portfolio.entity;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name = "project")
+@Table(name = "projects")
 public class Project {
 
     @Id
