@@ -10,14 +10,10 @@ import com.amulya.portfolio.service.ProjectService;
 
 @RestController
 @RequestMapping("/api/projects")
-<<<<<<< HEAD
 @CrossOrigin(origins = {
-    "http://localhost:3000",
-    "https://portfolio-frontend-rose-one.vercel.app"
+        "http://localhost:3000",
+        "https://portfolio-frontend-rose-one.vercel.app"
 })
-=======
-@CrossOrigin(origins = "http://localhost:3000")
->>>>>>> 1f2f4357043a8d94de0c4f89893cd0f989c0ee2b
 public class ProjectController {
 
     @Autowired
