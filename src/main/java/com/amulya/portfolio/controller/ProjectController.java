@@ -12,7 +12,8 @@ import com.amulya.portfolio.service.ProjectService;
 @RequestMapping("/api/projects")
 @CrossOrigin(origins = {
         "http://localhost:3000",
-        "https://portfolio-frontend-rose-one.vercel.app"
+        "https://portfolio-frontend-rose-one.vercel.app",
+        "https://sagiamulya.vercel.app"
 })
 public class ProjectController {
 
